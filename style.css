@@ -1,0 +1,84 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: 900;
+  color: #000;
+}
+
+.logo {
+  width: 100px;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+}
+.navLink {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+li {
+  margin-left: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 900;
+}
+
+.pizza {
+  width: 800px;
+}
+
+#Home {
+  background-color: #e93b3b;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#About {
+  margin: 100px;
+}
+
+#Products {
+  margin: 100px;
+}
+
+aside {
+  margin: 100px;
+}
+
+footer {
+  margin-top: 100px;
+  background-color: #e93b3b;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.email {
+  color: #fff;
+  font-weight: 500;
+}
